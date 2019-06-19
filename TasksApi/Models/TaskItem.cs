@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 
 namespace TasksApi.Models
 {
-    public class Task {
+    public class TaskItem {
         public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }

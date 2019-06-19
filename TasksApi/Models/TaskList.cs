@@ -7,6 +7,6 @@ namespace TasksApi.Models{
         public string ListName { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public ICollection<Task> Tasks { get; set; }
+        public ICollection<TaskItem> Tasks { get; set; }
     }
 }
